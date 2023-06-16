@@ -15,4 +15,3 @@ The data set includes information about:
 - Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges.
 - Demographic info about customers – gender, age range, and if they have partners and dependents.
 
-The model is saved at: trained.sav
