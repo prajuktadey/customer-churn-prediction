@@ -1,29 +1,59 @@
-# Customer Churn Prediction using ANNs
 
+Customer Churn Detection App
+============================
 
-Customer churn prediction is a common problem in the telecommunications, e-commerce, and subscription-based industries. It involves identifying customers who are likely to stop using a product or service in the near future. To address this challenge, Artificial Neural Networks (ANNs) can be utilized as a powerful machine learning technique for predicting customer churn.
+This web application is designed to predict customer churn using an Artificial Neural Network (ANN). The app is built using Streamlit, a Python library for creating interactive web applications.
 
-This repository provides an implementation of a customer churn prediction model using ANNs. The goal is to develop a predictive model that can accurately identify customers who are at a high risk of churning, enabling businesses to take proactive measures to retain those customers.
+Live Demo:
+---------
 
-### Dataset
-The dataset used in this project is linked: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+A live demo of the application is available at <https://prajuktadey-customer-churn-prediction.streamlit.app/>.
 
-The data set includes information about:
+Overview:
+--------
 
-- Customers who left within the last month – the column is called Churn.
-- Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and  movies.
-- Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges.
-- Demographic info about customers – gender, age range, and if they have partners and dependents.
+Customer churn refers to the phenomenon of customers discontinuing their business relationship with a company. Predicting customer churn is crucial for businesses to understand customer behavior and take proactive measures to retain them.
 
-### Languages and Tools :
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Pyton" alt="Python" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" title="Jupyter" alt="Jupyter" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/kaggle/kaggle-original-wordmark.svg" title="Kaggle" alt="Kaggle" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original-wordmark.svg" title="Numpy" alt="Numpy" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original-wordmark.svg" title="Pandas" alt="Pandas" width="40" height="40"/>&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" title="Matplotlib" alt="Matplotlib" width="40" height="40"/>&nbsp;
-</div>
+This app provides a user-friendly interface to input customer data and predict the likelihood of churn using an Artificial Neural Network model. The app takes various customer-related features as inputs, such as customer demographics, usage patterns, and service history, and generates a churn prediction based on the trained model.
 
-### Made by :
-Prajukta Dey
+Usage:
+-----
+
+To run the application locally, follow these steps:
+
+1.  Clone the repository:
+
+    `git clone https://github.com/your-username/customer-churn-detection-app.git`
+
+2.  Install the required dependencies:
+3.  
+    `pip install -r requirements.txt`
+
+4.  Run the Streamlit app:
+
+    `streamlit run main.py`
+
+5.  Access the app in your web browser by visiting `http://localhost:8501`.
+
+Project Structure
+-----------------
+
+The project directory contains the following files and directories:
+
+-   `app.py`: The main application file that defines the Streamlit app and its user interface.
+-   `model.sav`: The pre-trained ANN model used for churn prediction.
+-   `requirements.txt`: The list of required Python packages and their versions.
+   
+Dependencies:
+------------
+
+The following Python packages are used in this project:
+
+-   Streamlit: `streamlit`
+-   NumPy: `numpy`
+-   Pandas: `pandas`
+-   Scikit-learn: `scikit-learn`
+-   TensorFlow: `tensorflow`
+-   Keras: `keras`
+
+You can find the complete list of dependencies and their versions in the `requirements.txt` file.
