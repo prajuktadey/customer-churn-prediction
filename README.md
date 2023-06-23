@@ -40,7 +40,7 @@ Project Structure
 
 The project directory contains the following files and directories:
 
--   `app.py`: The main application file that defines the Streamlit app and its user interface.
+-   `main.py`: The main application file that defines the Streamlit app and its user interface.
 -   `model.sav`: The pre-trained ANN model used for churn prediction.
 -   `requirements.txt`: The list of required Python packages and their versions.
    
